@@ -28,7 +28,6 @@ The system is designed using **Apache Spark**, **GraphFrames**, **PyTorch Geomet
 - Visual analytics of transaction networks  
 
 ---
-
 ## 🧩 System Architecture
 
 ```mermaid
