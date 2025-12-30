@@ -33,13 +33,13 @@ The system is designed using **Apache Spark**, **GraphFrames**, **PyTorch Geomet
 
 ```mermaid
 flowchart TD
-    A[Raw Transactions] --> B[Data Cleaning & Parsing (Spark)]
-    B --> C[Graph Construction (GraphFrames)]
-    C --> D[Pattern Detection (Fan-in / Fan-out / Cycles)]
-    D --> E[Graph Neural Network (GCN)]
-    E --> F[Risk Scoring]
-    F --> G[SAR Generation (LLM)]
----
+    A[Raw Transactions] --> B["Data Cleaning & Parsing - Spark"]
+    B --> C["Graph Construction - GraphFrames"]
+    C --> D["Pattern Detection - Fan-in / Fan-out / Cycles"]
+    D --> E["Graph Neural Network - GCN"]
+    E --> F["Risk Scoring"]
+    F --> G["SAR Generation - LLM"]
+
 
 ## ⚙️ Technologies Used
 
